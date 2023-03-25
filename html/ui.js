@@ -5,7 +5,7 @@ var nameText = document.getElementById("name");
 var linkText = document.getElementById("link");
 
 window.addEventListener('message', (event) => {
-  if (event.data.type === 'setup') {
+  if (event.data.type === 'config') {
     nameText.innerHTML = event.data.nametext;
     serverName.style.color = event.data.nameColor;
     linkText.innerHTML = event.data.linktext;
