@@ -1,5 +1,5 @@
 # mmo-watermark 
-A watermark script that allows you to add watermarks to your images or videos in FiveM.
+A watermark script.
 
 ## Features
 - Text and logo watermarks.
