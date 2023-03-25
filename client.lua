@@ -2,7 +2,7 @@ if Config.showWatermark then
     CreateThread(function()
         Wait(1000)
         SendNuiMessage(json.encode {
-            type = 'setup',
+            type = 'config',
             nametext = Config.name,
             linktext = Config.link,
             nameColor = Config.nameColor,
