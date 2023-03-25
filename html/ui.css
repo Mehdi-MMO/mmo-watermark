@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@700&family=Open+Sans:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  font-size: 1em;
+  margin: 10px;
+}
+
+p {
+  font-size: 1.5vh;
+  margin: 0;
+  font-weight: 700;
+}
+
+.container {
+  position: absolute;
+  left: 1.2vw;
+  top: 0.55vw;
+}
+
+.item {
+  position: absolute;
+  left: 0;
+  white-space: nowrap;
+}
+
+#logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#logo-container,
+#name-container,
+#link-container {
+  opacity: 0%;
+  transition: all 1s ease;
+}
+
+.container #logo-container,
+.container #name-container,
+.container #link-container {
+  opacity: 100%;
+}
