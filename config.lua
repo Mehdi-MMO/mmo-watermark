@@ -21,4 +21,5 @@ Config.link = 'discord.gg/FqQFzndxZ4'
 Config.linkColor = "#00ff66"
 
 Config.logoEnabled = true
+
 Config.logoLink = "https://cdn.discordapp.com/attachments/1088122552330764298/1089200905351614504/1.png"
