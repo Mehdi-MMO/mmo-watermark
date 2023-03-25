@@ -14,3 +14,6 @@ None
 
 ## Usage
 To use the watermark script, simply drag n drop it in your server and adjust the configuration options to your liking.
+
+## Credits
+[BOSTRA](https://github.com/B0STRA)
